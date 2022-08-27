@@ -1,0 +1,28 @@
+.wrapper {
+    background: green; 
+    max-width: 250px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.screen {
+    background: skyblue;
+    max-width: 240px;
+    height: 45px;
+    margin-bottom: 0px;
+    border-width: 40px;
+    border-color: black;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    background: yellow;
+    max-width: 240px;
+    height: 245px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}

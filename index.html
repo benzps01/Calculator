@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="screen">
+                <p id="input"></p>
+                <p id="output"></p>
+            </div>
+            <div class="buttons">
+                <p>
+                    <button id="btn7" onclick="display(7)">7</button>
+                    <button id="btn8" onclick="display(8)">8</button>
+                    <button id="btn9" onclick="display(9)">9</button>
+                    <button id="addBtn" onclick="display('+')">+</button>
+                </p>
+                <p>
+                    <button id="btn4" onclick="display(4)">4</button>
+                    <button id="btn5" onclick="display(5)">5</button>
+                    <button id="btn6" onclick="display(6)">6</button>
+                    <button id="subBtn" onclick="display('-')">-</button>
+                </p>
+                <p>
+                    <button id="btn1" onclick="display(1)">1</button>
+                    <button id="btn2" onclick="display(2)">2</button>
+                    <button id="btn3" onclick="display(3)">3</button>
+                    <button id="multBtn" onclick="display('*')">*</button>
+                </p>
+                <p>
+                    <button id="reset" onclick="reset()">Clear</button>
+                    <button id="btn3" onclick="display(0)">0</button>
+                    <button id="btn3" onclick="display('/')">/</button>
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
